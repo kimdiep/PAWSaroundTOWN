@@ -1,0 +1,559 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Andada", arial;
+  font-family: 'Andada';font-size: 20px;
+/*  color: #777;*/
+  padding-top: 50px;
+/*  max-width: 100%;*/
+  max-height: 80%;
+  background-size: cover;
+  background-color: lightgrey;  
+  background-repeat: no-repeat;
+
+}
+
+
+=======
+/* USEFUL CODE {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 40px 20px;
+}*/
+
+header {
+        height: 20px;
+        padding-bottom: 50px;
+}
+
+/*header h1 {
+        display: inline-block;
+        padding-left: 120px;
+}*/
+
+/*targets the h3 tag to style the message*/
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Andada", sans-serif;
+/*  color: #111;*/
+}
+
+h4 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.navbar-default {
+  background-color: rgba(200, 230, 255, 0.43) !important;
+  border-color: #ebfbff;
+  font-size: 15px;
+}
+.navbar-default .navbar-brand {
+  color: #090909 !important;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #4f45ee !important;
+}
+.navbar-default .navbar-text {
+  color: #090909 !important;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #090909;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #4f45ee;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+/*  navigation bar font colour */
+color: #317f4b !important;
+background-color: #ebfbff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #4f45ee !important;
+  background-color: #ebfbff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ebfbff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ebfbff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #090909;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #090909;
+}
+.navbar-default .navbar-link {
+  color: #090909;
+}
+.navbar-default .navbar-link:hover {
+  color: #4f45ee !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: rgb(215, 217, 242) !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #4f45ee !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #4f45ee !important;
+    background-color: #ebfbff !important;
+  }
+
+  .navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+
+
+  /*/*.navbar navbar-default {
+      /*border:1px solid #ccc;removed border lines for consistency to design*/
+      /*border-width:1px 0;removed border lines for consistency to design*/
+                 /* list-style:none;
+                  margin:0;
+                  padding: 5px;
+                  text-align:center;
+                  line-height: 2px;
+                  text-decoration: none;
+                  color: #111;
+                  width: 100%;*/
+  }
+
+  /*.navbar navbar-default a {
+      display:inline-block;
+      padding: 12px 40px 2px 25px;
+      background: red !important;
+      color: gold;*/
+}
+
+.banner img{
+  width: 100%;
+  height: 60%;
+  margin-left: 30px;
+}
+
+.bannerlinks {
+  padding: 5px 7px 5px 0.5px;
+  margin-top: 30px;
+  margin-left: 10%;
+  background-color: rgba(224, 153, 0, 0.24);
+  border-color: rgba(158, 110, 93, 0.39);
+  border-radius: 50px;
+  max-width: 75%;
+}
+
+.bannerlinks a {
+    padding: 12px 30px 10px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.bannerlinks a.twitter:hover, .sociallinks a.twitter:hover{
+    color: #1da1f2;
+}
+.bannerlinks a.instagram:hover, .sociallinks a.instagram:hover {
+    color: #9900cc;
+}
+.bannerlinks a.facebook:hover {
+    color: blue;
+}
+.bannerlinks a.facebook:hover {
+  color: #2865FF;
+
+}
+
+.bannerlinks a, .navbar-default{
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.the-kennel-login{
+  padding-top: 30px;
+}
+.the-kennel-login img {
+  min-width: 30%;
+}
+
+/*.col-xs-6 {
+  border: 2px;
+  border-style: dashed;
+  border-color: blue;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;*/
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*styles the main-panel-pawx views*/
+.main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+/*styles the key-features-banner*/
+#key-features-banner {
+  color: #fff;
+  background-color:rgba(10, 10, 10, 0.68);
+  text-align:center;
+  padding:50px 80px;
+  padding-bottom:150px;
+  padding-top: 50px;
+}
+
+#key-features-banner h3 {
+  text-align: center;
+}
+
+#key-features-banner p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*sizes the main features icon*/
+#main-features ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 80px;
+}
+
+.fa.fa-paw {
+  font-size: 100px;
+  text-align: left;
+}
+
+.fa.fa-map-marker {
+  font-size: 100px;
+  text-align: center;
+}
+
+.fa.fa-newspaper-o {
+  font-size: 100px;
+  text-align: center;
+}
+
+.fa.fa-newspaper-o, .fa.fa-map-marker, .fa.fa-paw{
+  color: white
+}
+
+.fa.fa-newspaper-o:hover img, .fa.fa-map-marker:hover img, .fa.fa-paw:hover img {
+  color: orange
+
+}
+
+/*specifies the image for each panel*/
+.main-panel-paw1 {
+  background-image: url("../index_images/jason-wong-306244.jpg");
+  min-height: 80%;
+  opacity: 0.85;
+
+}
+
+.main-panel-paw2 {
+  background-image: url("../index_images/nick-turner-2570.jpg");
+  min-height: 400px;
+}
+
+.main-panel-paw3 {
+  background-image: url("../index_images/hannah-wei-84287.jpg");
+  min-height: 400px;
+}
+
+
+/*styles the text of the message in each main-panel-pawx*/
+.pawsome-message {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+/*styles for span.border design for the key message in each main-panel-pawx*/
+.pawsome-message span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/*styles for border color and design for the key message in each main-panel-pawx*/
+.border {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+
+/*positions the cross-page-banner to break up the view*/
+.cross-page-banner {
+  position:relative;
+
+}
+
+h3.cross-page-banner-sub{
+  color: white !important;
+}
+
+/*styles the cross-page-banner-subs which hold the core information*/
+.cross-page-banner-sub {
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+
+/* Turn off the scrolling on phones */
+@media only screen and (max-device-width: 1024px) {
+    .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
+        background-attachment: scroll;
+    }
+}
+
+.footer {
+  color: #777;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+/* USEFUL CODE {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}*/
+
+body, html {
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+/* Styles the thumbnail */
+
+/* blogs css*/
+
+a.fancybox img {
+    border: none;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+    -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+}
+
+a.fancybox:hover img {
+        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+        border: none;
+        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+    }
+.container {
+    height: 50%;
+    width: 100%;
+    padding: none;
+}
+
+.blogcontent {
+   width: 100%;
+    background-color:rgba(10, 10, 10, 0.68);
+    color: white;
+    font-family: "Andada";
+    padding-left: 70px;
+    padding-right: 70px;
+    padding: 20px 70px 20px 20px;
+/*    margin-left: 40px;*/
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.blogimages {
+  align-items: center;
+}
+
+.drinksmenu, .coffeecup{
+  float: right;
+  padding: 15px;
+}
+
+.barista {
+  float:left;
+  padding: 20px;
+}
+.main-panel-st {
+  background-image: url("../index_images/andrew-welch-59249.jpg");
+ }
+
+.main-panel-about{
+  background-image: url(../index_images/chill.jpg);
+  max-
+  height: 60%;
+}
+
+.main-panel-ld {
+  background-image: url("../Blog/blog_images/rug_cat.jpg");
+  max-height: 70%;
+ }
+
+.main-panel-contact {
+  background-image: url("../index_images/hi.jpg");
+}
+
+.main-panel-faqs
+{
+  background-image:url("../index_images/faqs.jpg");
+}
+
+.main-panel-locator{
+  background-image: url("../index_images/london.jpg");
+}
+
+.main-panel-st, .main-panel-about, .main-panel-ld, .main-panel-contact, .main-panel-faqs, .main-panel-locator{
+  min-height: 70%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sociallinks{
+  padding: 20px 40px 20px 40px;
+  background-color: rgba(63, 191, 191, 0.1);
+  colour:gold;
+  border-radius: 7px;
+  display: inline-block;
+  width: 40%;
+
+}
+
+#contact{
+/*  background:rgba(0, 9, 183, 0.81);*/
+  color:#f4f4f4;
+  padding-bottom:80px;
+  border-radius: 40px;
+}
+
+
+textarea.form-control {
+    height:100px;
+
+}
+
+.contactcontainer a{
+  background-color: rgba(224, 153, 0, 0.4);
+}
+
+.contactcontainer{
+  max-width: 100%;
+  padding-top: 5%;
+}
+
+h3.contactcontainter{
+  color: white;
+  width: 40%;
+}
+
+.cafe-locator-map {
+  width: 1000px
+}
+
+.cafe-locator-map p{
+  color: white;
+}
+
+.kennel-form{
+  max-width: 40%
+}
+
+
+/* Blog landing page styling */
+
+#main-features {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  min-width: 500px; /* Minimum width */
+  margin: 0 auto; /* Center it */
+}
+
+#main-features img {
+    display: inline;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+}
+
+#main-features img:hover {
+    background-color: yellow;           /* Yellow Highlight On Hover */
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+#ethos{
+  padding: 80px;
+}
+
+
+
+
+
