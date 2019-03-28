@@ -2,7 +2,7 @@
 Miriam Munawar, Kim Diep and Amanda Taylor's masterpiece
 
 ## Project Introduction
-This is a group project as part of the Code First: Girls Beginner's Web Development Course (Autumn 2017).
+This is a group project as part of the Code First: Girls Beginner's Web Development Course (Autumn 2017) at Twitter, UK.
 The website is targetted for animal lovers who like to find animal friendly cafes, or animal-themed cafes in London, UK. It has a map which helps users locate where the cafes are.
 
 ## Motivation
